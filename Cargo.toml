@@ -1,0 +1,13 @@
+[package]
+name = "IronServer"
+version = "0.1.0"
+authors = ["FIL1994 <phil.vanraalte@gmail.com>"]
+
+[dependencies]
+iron = "0.5.*"
+router = "*"
+mount = "*"
+[dependencies.staticfile]
+version = "0.4"
+default-features = false
+features = ["cache"]
